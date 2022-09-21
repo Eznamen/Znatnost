@@ -26,7 +26,7 @@ public class Person {
 
     public String[] getSurname() {
 
-        String[] s = surname.split("-");
+        String[] s = surname.split("\\P{IsAlphabetic}+");
 
         return s;
     }

@@ -20,8 +20,8 @@ public class PersonNameAmountWordsComparator implements Comparator<Person> {
             } else {
                 return comparater;
             }
-
         } else {
+
             return Integer.compare(p2.getAge(), p1.getAge());
         }
 

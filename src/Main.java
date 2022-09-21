@@ -7,9 +7,9 @@ public class Main {
         List<Person> people = new ArrayList<>();
         people.add(new Person("Katya", "Mamina-Naumova", 41));
         people.add(new Person("Katya", "Mamina", 40));
-        people.add(new Person("Katya", "Mamina-Naumova", 50));
+        people.add(new Person("Katya", "Mamina Naumova", 50));
         people.add(new Person("Katya", "Mamina-Naumova-Ivanova-iiii", 45));
-        people.add(new Person("Katya", "Mamina-Naumova-Ivanova-iii-ooo", 30));
+        people.add(new Person("Katya", "Mamina Naumova Ivanova iii ooo", 30));
         people.add(new Person("Katya", "Mamina-Naumova-Ivanova", 27));
         System.out.println(people);
 
