@@ -8,6 +8,7 @@ public class PersonNameAmountWordsComparator implements Comparator<Person> {
     }
 
     public int getAmuntWordSurnameuntWordSurname() {
+
         return amuntWordSurnameuntWordSurname;
     }
 
@@ -21,7 +22,6 @@ public class PersonNameAmountWordsComparator implements Comparator<Person> {
                 return comparater;
             }
         } else {
-
             return Integer.compare(p2.getAge(), p1.getAge());
         }
 
